@@ -1,0 +1,115 @@
+<div class ="container">
+<div class="row">
+<div class="card  col-xs-6" style="width: 50%;" >
+    <h3 class="card-header text-center font-weight-bold text-uppercase py-4"> SYSTEM.. </h3>
+    <div class="card-body">
+      <div id="table" class="table-editable">
+        
+        <table class="table table-bordered table-responsive-md table-striped text-center">
+          <thead>
+            <tr>
+              <th class="text-center">Name</th>
+              <th class="text-center">Value</th>
+              
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor= "let d of systemData">
+              <td class="pt-3-half"  >{{d.name}}</td>
+              <td class="pt-3-half"  >{{d.value}}</td>
+              </tr>
+
+             </tbody>
+             </table>
+            
+     </div>
+   </div>
+   </div> 
+
+
+
+<div class="card col-xs-6" style="width: 50% ">
+    <h3 class="card-header text-center font-weight-bold text-uppercase py-4"> BIOS.. </h3>
+    <div class="card-body">
+      <div id="table" class="table-editable">
+        
+        <table class="table table-bordered table-responsive-md table-striped text-center">
+          <thead>
+            <tr>
+              <th class="text-center">Name</th>
+              <th class="text-center">Value</th>
+              
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor= "let d of biosData ">
+              <td class="pt-3-half"  >{{d.name}}</td>
+              <td class="pt-3-half"  >{{d.value}}</td>
+              </tr>
+
+             </tbody>
+             </table>
+            
+     </div>
+
+     
+    </div> 
+</div>  
+
+
+<div class="container">
+<div class="row">
+<div class="card col-xs-6" style="width: 50% ">
+  <h3 class="card-header text-center font-weight-bold text-uppercase py-4"> BASEBOARD.. </h3>
+  <div class="card-body">
+    <div id="table" class="table-editable">
+      
+      <table class="table table-bordered table-responsive-md table-striped text-center">
+        <thead>
+          <tr>
+            <th class="text-center">Name</th>
+            <th class="text-center">Value</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor= "let d of baseboardData ">
+            <td class="pt-3-half"  >{{d.name}}</td>
+            <td class="pt-3-half"  >{{d.value}}</td>
+            </tr>
+
+           </tbody>
+           </table>
+          
+   </div>
+   </div>
+   </div>
+
+
+   <div class="card col-xs-6" style="width: 50% ">
+    <h3 class="card-header text-center font-weight-bold text-uppercase py-4"> CHASSIS.. </h3>
+    <div class="card-body">
+      <div id="table" class="table-editable">
+        
+        <table class="table table-bordered table-responsive-md table-striped text-center">
+          <thead>
+            <tr>
+              <th class="text-center">Name</th>
+              <th class="text-center">Value</th>
+              
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor= "let d of chassisData ">
+              <td class="pt-3-half"  >{{d.name}}</td>
+              <td class="pt-3-half"  >{{d.value}}</td>
+              </tr>
+
+             </tbody>
+             </table>
+            
+     </div>       
+    </div>
+   </div>
+
+   </div>
